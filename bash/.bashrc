@@ -119,3 +119,5 @@ fi
 export LS_COLORS="di=0;37:fi=0;37:*.txt=37:*.jpg=37:*.png=37"
 # Ensure ls uses colors
 alias ls='ls --color=auto'
+# Load Oh My Posh
+eval "$(oh-my-posh init bash --config ~/.poshthemes/custom-pure.omp.json)"
